@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>html2jade</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta name="description" content="Easily convert your HTML to Jade">
+    <meta name="author" content="Michael Schwartz">
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/he.js"></script>
+    <script src="lib/html2jade.js"></script>
+    <script src="lib/jade.js"></script>
+    <script src="libraries/jquery/jquery.js"></script>
+    <script src="libraries/jszip/jszip.min.js"></script>
+    <script src="libraries/jszip/jszip-utils.js"></script>
+    <script src="libraries/jszip/FileSaver.js"></script>
+    <script src="libraries/jszip/Blob.js"></script>
+    <script src="libraries/alertifyjs/alertify.min.js"></script>
+  </head>
+</html>
+<body>
+  <header class="grid">
+    <div class="grid__col--12">
+      <h1 class="headline-primary--grouped">html2jade</h1>
+      <h2 class="headline-secondary--grouped">Paste your HTML code below to convert it to Jade</h2>
+    </div>
+  </header>
+  <div class="grid">
+    <div class="grid__col--6">
+      <textarea data-action="input" placeholder="HTML here..." rows="7" class="form__input"></textarea>
+    </div>
+    <div class="grid__col--6">
+      <textarea data-action="output" placeholder="Converted code here..." rows="7" class="form__input"></textarea>
+    </div>
+    <div class="grid__col--12 mtop">
+      <button data-action="convert" class="btn--default" type="submit">Convert</button>
+      <button data-action="download" class="btn--default">Download</button>
+      <button data-action="clear" class="btn--default">Clear</button>
+    </div>
+  </div>
+  <footer>Made with love by <a href="http://mikethedj4.github.io/" target="_blank">Michael</a>.</footer>
+  <script src="script.js"></script>
+</body>

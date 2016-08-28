@@ -1,0 +1,59 @@
+@import url("normalize.css");
+@import url("libraries/alertifyjs/css/alertify.min.css");
+@import url("libraries/alertifyjs/css/themes/default.min.css");
+@import url("libraries/polyui/polyui.css");
+@font-face {
+  font-family: Lato;
+  src: url("fonts/Lato-Light.ttf");
+}
+/* Globals */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin-top: 2em;
+}
+textarea {
+  position: relative;
+  top: -1em;
+  max-height: 80vh;
+  min-height: calc(100vh - 285px);
+  resize: none;
+}
+.mtop {
+  margin-top: 1em;
+  padding-bottom: 2em;
+}
+/* Footer */
+footer {
+  padding: 1em 0;
+  color: #888;
+  background: #1f3836;
+  text-align: center;
+}
+footer a {
+  color: #adadad;
+}
+footer a:hover {
+  color: #c7cfc8;
+}
+/* variable classes */
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.fn {
+  float: none;
+}
+.block {
+  display: block;
+}
+.iblock {
+  display: inline-block;
+}
+.hide {
+  display: none;
+}
