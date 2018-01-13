@@ -1,7 +1,7 @@
 html2jade
 ===================
 
-[Launch html2jade](https://mikethedj4.github.io/html2jade) - [Official Jade Documentation](http://jade-lang.com/)
+[Launch html2jade](https://michaelsboost.github.io/html2jade) - [Official Jade Documentation](http://jade-lang.com/)
 
 License
 -------------
